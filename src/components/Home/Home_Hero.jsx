@@ -14,7 +14,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 export const Home_Hero = () => {
   return (
-    <div className="lg:max-w-[1440px] md:max-w-[768px] max-w-[375px] h-screen mx-auto  ">
+    <div className="lg:max-w-[1440px]  md:h-[1950px]  md:max-w-[768px] max-w-[375px] h-[2150px]  mx-auto  ">
       <div className=" flex flex-col   ">
         {/*/////////////////  Row 1 ///////////////// */}
         <div className="flex md:flex-row flex-col-reverse ">
@@ -30,7 +30,7 @@ export const Home_Hero = () => {
                 connect with others.
               </p>
               <button className="lg:w-[160px] lg:h-[16px] flex justify-between  items-center">
-                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-white ease-in-out duration-200">
+                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-white hover:scale-105 ease-in-out duration-200">
                   GET AN INVITE
                 </h5>
                 <HiArrowLongRight size={30} />
@@ -93,7 +93,7 @@ export const Home_Hero = () => {
                 other networks. Then share your story with everyone.
               </p>
               <button className="lg:w-[200px] lg:h-[16px] flex justify-between  items-center">
-                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black ease-in-out duration-200">
+                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black hover:scale-105 ease-in-out duration-200">
                   VIEW THE STORIES
                 </h5>
                 <HiArrowLongRight size={30} />
@@ -115,7 +115,7 @@ export const Home_Hero = () => {
                 brands, businesses you name it.
               </p>
               <button className="lg:w-[200px] lg:h-[16px] flex justify-between  items-center">
-                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black ease-in-out duration-200">
+                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black ease-in-out hover:scale-105 duration-200">
                   VIEW THE STORIES
                 </h5>
                 <HiArrowLongRight size={30} />
