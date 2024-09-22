@@ -1,10 +1,11 @@
-import { Home_Hero } from "./components/Home_Hero";
+import { Home } from "./components/Home";
+
 //import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <Home_Hero />
+      <Home />
     </>
   );
 }
