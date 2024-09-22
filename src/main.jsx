@@ -7,7 +7,7 @@ import { Home_Hero } from "./components/Home_Hero.jsx";
 import { Stories_Hero } from "./components/Stories_Hero.jsx";
 
 const router = createBrowserRouter([
-  { path: "/", element: <App /> },
+  { path: "/023_photo-multp/", element: <App /> },
   { path: "/home_hero", element: <Home_Hero /> },
   { path: "/stories_hero", element: <Stories_Hero /> },
 ]);
