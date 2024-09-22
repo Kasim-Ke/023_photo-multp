@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  color: #dfdfdf;
+  color: hwb(0 50% 49%);
   font-size: 15px;
   line-height: 25px;
 }
