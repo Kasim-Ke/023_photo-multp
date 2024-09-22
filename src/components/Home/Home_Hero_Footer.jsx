@@ -1,4 +1,4 @@
-import img2 from "../images/home/desktop/designed-for-everyone.jpg";
+import img2 from "./desktop/beautiful-stories.jpg";
 
 export const Home_Hero_Footer = () => {
   return (

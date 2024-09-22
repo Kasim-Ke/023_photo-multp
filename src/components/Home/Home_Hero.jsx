@@ -1,4 +1,4 @@
-import image2 from "../images/stories/desktop/king-on-africa.jpg";
+import image2 from "./desktop/create-and-share.jpg";
 
 export const Home_Hero = () => {
   return (

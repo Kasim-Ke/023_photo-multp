@@ -1,5 +1,5 @@
-import image1 from "../images/stories/desktop/18-days-voyage.jpg";
-import { Navbar } from "./Navbar";
+import image1 from "./desktop/calm-waters.jpg";
+import { Navbar } from "../Navbar";
 
 export const Stories_Hero = () => {
   return (
