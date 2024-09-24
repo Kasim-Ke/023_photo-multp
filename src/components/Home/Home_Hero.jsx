@@ -14,7 +14,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 export const Home_Hero = () => {
   return (
-    <div className="lg:max-w-[1440px]  md:h-[1950px]  md:max-w-[768px] max-w-[375px] h-[2150px]  mx-auto  ">
+    <div className="lg:max-w-[1440px]  md:h-[1900px]  md:max-w-[768px] max-w-[375px] h-[2150px]  mx-auto  ">
       <div className=" flex flex-col   ">
         {/*/////////////////  Row 1 ///////////////// */}
         <div className="flex md:flex-row flex-col-reverse ">

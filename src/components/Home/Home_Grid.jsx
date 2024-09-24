@@ -46,12 +46,12 @@ export const Home_Grid = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative hover:-translate-y-6 duration-300"
+            className="relative hover:-translate-y-3 duration-300"
           >
             {/* Button overlay */}
             <button className="absolute top-0 left-0 right-0 bottom-0 bg-[black] bg-opacity-35 hover:bg-opacity-0 ease-in duration-300 hover:tracking-wide">
-              <div className="absolute left-3 bottom-3 mx-auto">
-                <h3 className="text-[18px]">{image.title}</h3>
+              <div className="absolute left-3 bottom-3 mx-auto text-left">
+                <h3 className="text-[18px] font-bold">{image.title}</h3>
                 <h4 className="text-[12px]">by {image.author}</h4>
                 <hr className="w-55 h-px my-4 bg-gray-200 border-0"></hr>
                 <div className="lg:w-[150px] flex justify-between items-center">
