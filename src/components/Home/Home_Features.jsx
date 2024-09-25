@@ -17,7 +17,7 @@ export const Home_Features = () => {
       {/*  container*/}
       <div
         className="lg:w-[1110px] lg:h-[236px] lg:flex-row justify-between items-center md:w-[457px] md:h-[775px] w-[310px] h-[802px] flex-col  flex "
-        data-aos="fade-left"
+        data-aos="fade-down"
       >
         {/* 1 box*/}
         <div className="lg:w-[350px] lg:h-full md:-[457px] md:h-[211px] w-[310px] h-[236px] text-center  flex flex-col justify-between ">

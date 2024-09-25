@@ -11,7 +11,7 @@ import {
 
 export const Footer = () => {
   return (
-    <div className="w-full lg:h-[250px] md:h-[284px] h-[539px] justify-center items-center flex  mx-auto px-10 bg-black">
+    <div className="w-full lg:h-[250px] md:h-[284px] h-[539px] justify-center items-center flex  mx-auto px-10 bg-black ">
       {/*container */}
       <div className="lg:w-[1300px] lg:h-[122px] md:w-[689px] md:h-[156px] w-[310px] h-[427px] justify-between flex md:flex-row flex-col  ">
         {/*logo and svg box */}
