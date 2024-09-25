@@ -73,14 +73,14 @@ export const Home_Grid = () => {
               </div>
             </button>
 
-            {/* Desktop Image (Hidden on Mobile, Visible on md and larger) */}
+            {/* Desktop Image  */}
             <img
               className="hidden md:block lg:w-[360px] md:w-[379px] h-[500px] object-cover"
               src={image.desktop}
               alt={image.title}
             />
 
-            {/* Mobile Image (Visible on Mobile, Hidden on md and larger) */}
+            {/* Mobile Image  */}
             <img
               className="block md:hidden w-[375px] h-[375px] object-cover"
               src={image.mobile}

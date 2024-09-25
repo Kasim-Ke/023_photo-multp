@@ -4,7 +4,7 @@ export const Navbar = () => {
     <div className="w-full h-[72px] mx-auto">
       <p className=" w-full mx-auto">
         <Link to="/home">home </Link>
-        <Link to="/stories_hero">stories</Link>
+        <Link to="/stories">stories</Link>
       </p>
     </div>
   );
