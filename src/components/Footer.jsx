@@ -15,7 +15,7 @@ export const Footer = () => {
       {/*container */}
       <div className="lg:w-[1300px] lg:h-[122px] md:w-[689px] md:h-[156px] w-[310px] h-[427px] justify-between flex md:flex-row flex-col  ">
         {/*logo and svg box */}
-        <div className="flex lg:w-[450px] md:w-[250px] w-[310px] h-[121px]  md:flex-row  flex-col justify-between  ">
+        <div className="flex  md:w-[250px] w-[310px] h-[121px]  md:flex-row  flex-col justify-between  ">
           <div className="lg:w-[300px]  h-full  justify-between   flex-col flex ">
             <img className="lg:w-[200px] lg:h-[18px]  " src={logo} alt="logo" />
             {/*svgs */}
@@ -49,7 +49,7 @@ export const Footer = () => {
           </div>
         </div>
         {/*buttons */}
-        <div className="md:h-[121px] flex flex-col md:items- md:mx-auto justify-between items-center h-[121px] text-white font-bold mx-auto  ">
+        <div className="md:h-[121px] flex flex-col md:mx-auto justify-between items-center  h-[121px] text-white font-bold mx-auto  ">
           <button className="hover:text-gray-500 duration-300 ">HOME</button>
           <button className="hover:text-gray-500 duration-300 ">STORIES</button>
           <button className="hover:text-gray-500 duration-300 ">
