@@ -1,3 +1,8 @@
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Home_img1_desktop from "./desktop/create-and-share.jpg";
 import Home_img1_tablet from "./tablet/create-and-share.jpg";
 import Home_img1_mobile from "./mobile/create-and-share.jpg";
@@ -13,13 +18,20 @@ import Home_img3_mobile from "./mobile/designed-for-everyone.jpg";
 import { HiArrowLongRight } from "react-icons/hi2";
 
 export const Home_Hero = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  });
+
   return (
     <div className="lg:max-w-[1440px]  md:h-[1900px]  md:max-w-[768px] max-w-[375px] h-[2150px]  mx-auto  ">
       <div className=" flex flex-col   ">
         {/*/////////////////  Row 1 ///////////////// */}
-        <div className="flex md:flex-row flex-col-reverse ">
+        <div
+          className="flex md:flex-row flex-col-reverse  "
+          data-aos="fade-down-left"
+        >
           {/* Row 1 text box */}
-          <div className="lg:w-[610px] lg:h-[650px] justify-center items-center md:w-[495px] md:h-[650px] md:flex-row w-[375px] h-[419px] flex-col text-left flex  text-white  bg-black">
+          <div className="lg:w-[610px] lg:h-[650px] justify-center items-center md:w-[495px] md:h-[650px] md:flex-row w-[375px] h-[419px] flex-col text-left flex  text-white  bg-black ">
             <div className="flex flex-col justify-between items-start md:w-[387px] md:h-[304px] w-[318px] h-[275px]  ">
               <h1 className="md:text-[40px] md:leading-[48px] md:tracking-[4.17px] text-[32px] leading-[40px] tracking-[3.33px]  uppercase font-bold  ">
                 Create and share your photo stories.
@@ -30,7 +42,7 @@ export const Home_Hero = () => {
                 connect with others.
               </p>
               <button className="lg:w-[160px] lg:h-[16px] flex justify-between  items-center">
-                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-white hover:scale-105 ease-in-out duration-200">
+                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-white hover:scale-105 ease-in-out duration-200 pr-2">
                   GET AN INVITE
                 </h5>
                 <HiArrowLongRight size={30} />
@@ -60,7 +72,7 @@ export const Home_Hero = () => {
           </div>
         </div>
         {/* ///////////////// Row 2  ///////////////// */}
-        <div className="flex md:flex-row flex-col ">
+        <div className="flex md:flex-row flex-col " data-aos="fade-down-right">
           <div>
             {/* Row 2 DEKTOP IMAGE*/}
             <img
@@ -93,7 +105,7 @@ export const Home_Hero = () => {
                 other networks. Then share your story with everyone.
               </p>
               <button className="lg:w-[200px] lg:h-[16px] flex justify-between  items-center">
-                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black hover:scale-105 ease-in-out duration-200">
+                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black hover:scale-105 ease-in-out duration-200 pr-2">
                   VIEW THE STORIES
                 </h5>
                 <HiArrowLongRight size={30} />
@@ -102,7 +114,10 @@ export const Home_Hero = () => {
           </div>
         </div>
         {/*/////////////////  Row 3 ///////////////// */}
-        <div className=" flex md:flex-row flex-col-reverse ">
+        <div
+          className=" flex md:flex-row flex-col-reverse "
+          data-aos="fade-down"
+        >
           {/* Row 3 text box */}
           <div className="lg:w-[610px] lg:h-[600px] justify-center items-center md:w-[495px] md:h-[600px] w-[375px] h-[419px] flex   ">
             <div className="md:w-[387px] md:h-[304px] w-[318px] h-[275px]   flex flex-col justify-between items-start   ">
@@ -114,8 +129,8 @@ export const Home_Hero = () => {
                 audience. Our tool is designed for photographers of all levels,
                 brands, businesses you name it.
               </p>
-              <button className="lg:w-[200px] lg:h-[16px] flex justify-between  items-center">
-                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black ease-in-out hover:scale-105 duration-200">
+              <button className="lg:w-[200px] lg:h-[16px] flex justify-between  items-center ">
+                <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black ease-in-out hover:scale-105 duration-200 pr-2">
                   VIEW THE STORIES
                 </h5>
                 <HiArrowLongRight size={30} />

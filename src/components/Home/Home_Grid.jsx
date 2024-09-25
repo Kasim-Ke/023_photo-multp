@@ -1,3 +1,8 @@
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import img1_dektop from "./desktop/mountains.jpg";
 import img1_mobile from "./mobile/mountains.jpg";
 
@@ -13,6 +18,10 @@ import img4_mobile from "./mobile/architecturals.jpg";
 import { HiArrowLongRight } from "react-icons/hi2";
 
 export const Home_Grid = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  });
+
   const images = [
     {
       desktop: img1_dektop,
@@ -41,8 +50,11 @@ export const Home_Grid = () => {
   ];
 
   return (
-    <div className="lg:max-w-[1440px] md:max-w-[768px] max-w-[378px] h-full mx-auto flex text-white ">
-      <div className="grid grid-cols-1 lg:grid-rows-1 md:grid-rows-2 lg:grid-cols-4 md:grid-cols-2 mx-auto">
+    <div
+      className="lg:max-w-[1440px] md:max-w-[768px] max-w-[378px] h-full mx-auto flex text-white "
+      data-aos="fade-right"
+    >
+      <div className="grid grid-cols-1 lg:grid-rows-1 md:grid-rows-2 lg:grid-cols-4 md:grid-cols-2 mx-auto ">
         {images.map((image, index) => (
           <div
             key={index}
@@ -54,8 +66,8 @@ export const Home_Grid = () => {
                 <h3 className="text-[18px] font-bold">{image.title}</h3>
                 <h4 className="text-[12px]">by {image.author}</h4>
                 <hr className="w-55 h-px my-4 bg-gray-200 border-0"></hr>
-                <div className="lg:w-[150px] flex justify-between items-center">
-                  <button className="">READ STORY</button>
+                <div className="lg:w-[150px] flex  items-center">
+                  <button className="pr-2">READ STORY</button>
                   <HiArrowLongRight size={30} />
                 </div>
               </div>

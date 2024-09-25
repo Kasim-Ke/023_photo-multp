@@ -1,12 +1,24 @@
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import responsive from "./desktop/responsive.svg";
 import nolimit from "./desktop/no-limit.svg";
 import embed from "./desktop/embed.svg";
 
 export const Home_Features = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  });
+
   return (
-    <div className="lg:max-w-[1440px] lg:h-[476px]   items-center justify-center md:max-w-[768px] md:h-[1015px] h-[962px] w-[375px] flex-col mx-auto flex">
+    <div className="lg:max-w-[1440px] lg:h-[476px]   items-center justify-center md:max-w-[768px] md:h-[1015px] h-[962px] w-[375px] flex-col mx-auto flex ">
       {/*  container*/}
-      <div className="lg:w-[1110px] lg:h-[236px] lg:flex-row justify-between items-center md:w-[457px] md:h-[775px] w-[310px] h-[802px] flex-col  flex ">
+      <div
+        className="lg:w-[1110px] lg:h-[236px] lg:flex-row justify-between items-center md:w-[457px] md:h-[775px] w-[310px] h-[802px] flex-col  flex "
+        data-aos="fade-left"
+      >
         {/* 1 box*/}
         <div className="lg:w-[350px] lg:h-full md:-[457px] md:h-[211px] w-[310px] h-[236px] text-center  flex flex-col justify-between ">
           <img
