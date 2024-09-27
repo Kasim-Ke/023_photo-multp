@@ -5,12 +5,51 @@ import { HiArrowLongRight } from "react-icons/hi2";
 // Import the images
 import img1_dektop from "./desktop/mountains.jpg";
 import img1_mobile from "./mobile/mountains.jpg";
+
 import img2_dektop from "./desktop/cityscapes.jpg";
 import img2_mobile from "./mobile/cityscapes.jpg";
+
 import img3_dektop from "./desktop/18-days-voyage.jpg";
 import img3_mobile from "./mobile/18-days-voyage.jpg";
+
 import img4_dektop from "./desktop/architecturals.jpg";
 import img4_mobile from "./mobile/architecturals.jpg";
+
+import img5_dektop from "./desktop/world-tour.jpg";
+import img5_mobile from "./mobile/world-tour.jpg";
+
+import img6_dektop from "./desktop/unforeseen-corners.jpg";
+import img6_mobile from "./mobile/unforeseen-corners.jpg";
+
+import img7_dektop from "./desktop/king-on-africa.jpg";
+import img7_mobile from "./mobile/king-on-africa.jpg";
+
+import img8_dektop from "./desktop/trip-to-nowhere.jpg";
+import img8_mobile from "./mobile/trip-to-nowhere.jpg";
+
+import img9_dektop from "./desktop/running-free.jpg";
+import img9_mobile from "./mobile/running-free.jpg";
+
+import img10_dektop from "./desktop/behind-the-waves.jpg";
+import img10_mobile from "./mobile/behind-the-waves.jpg";
+
+import img11_dektop from "./desktop/rage-of-the-sea.jpg";
+import img11_mobile from "./mobile/rage-of-the-sea.jpg";
+
+import img12_dektop from "./desktop/calm-waters.jpg";
+import img12_mobile from "./mobile/calm-waters.jpg";
+
+import img13_dektop from "./desktop/milky-way.jpg";
+import img13_mobile from "./mobile/milky-way.jpg";
+
+import img14_dektop from "./desktop/dark-forest.jpg";
+import img14_mobile from "./mobile/dark-forest.jpg";
+
+import img15_dektop from "./desktop/somwarpet.jpg";
+import img15_mobile from "./mobile/somwarpet.jpg";
+
+import img16_dektop from "./desktop/land-of-dreams.jpg";
+import img16_mobile from "./mobile/land-of-dreams.jpg";
 
 export const Stories_Grid = () => {
   const [rotatedIndex, setRotatedIndex] = useState(null);
@@ -39,6 +78,78 @@ export const Stories_Grid = () => {
     {
       desktop: img4_dektop,
       mobile: img4_mobile,
+      title: "Architecturals",
+      author: "Samantha Brooke",
+    },
+    {
+      desktop: img5_dektop,
+      mobile: img5_mobile,
+      title: "World Tourn",
+      author: "Timothy Wagner",
+    },
+    {
+      desktop: img6_dektop,
+      mobile: img6_mobile,
+      title: "Sunset Cityscapes",
+      author: "Benjamin Cruz",
+    },
+    {
+      desktop: img7_dektop,
+      mobile: img7_mobile,
+      title: "18 Days Voyage",
+      author: "Alexei Borodin",
+    },
+    {
+      desktop: img8_dektop,
+      mobile: img8_mobile,
+      title: "Architecturals",
+      author: "Samantha Brooke",
+    },
+    {
+      desktop: img9_dektop,
+      mobile: img9_mobile,
+      title: "World Tourn",
+      author: "Timothy Wagner",
+    },
+    {
+      desktop: img10_dektop,
+      mobile: img10_mobile,
+      title: "Sunset Cityscapes",
+      author: "Benjamin Cruz",
+    },
+    {
+      desktop: img11_dektop,
+      mobile: img11_mobile,
+      title: "18 Days Voyage",
+      author: "Alexei Borodin",
+    },
+    {
+      desktop: img12_dektop,
+      mobile: img12_mobile,
+      title: "18 Days Voyage",
+      author: "Alexei Borodin",
+    },
+    {
+      desktop: img13_dektop,
+      mobile: img13_mobile,
+      title: "Architecturals",
+      author: "Samantha Brooke",
+    },
+    {
+      desktop: img14_dektop,
+      mobile: img14_mobile,
+      title: "Sunset Cityscapes",
+      author: "Benjamin Cruz",
+    },
+    {
+      desktop: img15_dektop,
+      mobile: img15_mobile,
+      title: "18 Days Voyage",
+      author: "Alexei Borodin",
+    },
+    {
+      desktop: img16_dektop,
+      mobile: img16_mobile,
       title: "Architecturals",
       author: "Samantha Brooke",
     },
