@@ -28,7 +28,7 @@ export const Home_Hero = () => {
         {/*/////////////////  Row 1 ///////////////// */}
         <div
           className="flex md:flex-row flex-col-reverse  "
-          data-aos="fade-down-left"
+          data-aos="fade-down"
         >
           {/* Row 1 text box */}
           <div className="lg:w-[610px] lg:h-[650px] justify-center items-center md:w-[495px] md:h-[650px] md:flex-row w-[375px] h-[419px] flex-col text-left flex  text-white  bg-black ">

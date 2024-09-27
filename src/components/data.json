@@ -1,0 +1,130 @@
+[
+  {
+    "img": "the_mountains.jpg",
+    "author": "John Doe",
+    "locationDesktop": "/images/desktop/",
+    "locationMobile": "./Stories/mobile/mountains.jpg",
+    "title": "The Mountains",
+    "story": "A serene peak that touches the sky, where clouds meet the mountain's edge. A journey that leads to peace and tranquility."
+  },
+  {
+    "img": "sunset_cityscape.jpg",
+    "author": "Jane Smith",
+    "locationDesktop": "desktop/cityscapes.jpg",
+    "locationMobile": "./Stories/mobile/cityscapes.jpg",
+    "title": "Sunset Cityscape",
+    "story": "The city glows as the sun sets, casting golden rays on towering skyscrapers. A breathtaking view of urban life winding down."
+  },
+  {
+    "img": "15_days_voyage.jpg",
+    "author": "Emily Johnson",
+    "locationDesktop": "./Stories/desktop/18-days-voyage.jpg",
+    "locationMobile": "./Stories/mobile/18-days-voyage.jpg",
+    "title": "15 Days Voyage",
+    "story": "A man embarks on a 15-day journey, seeking adventure across open roads and unknown horizons. A test of endurance and spirit."
+  },
+  {
+    "img": "architecture.jpg",
+    "author": "Mark Wilson",
+    "locationDesktop": "./Stories/desktop/architecturals.jpg",
+    "locationMobile": "./Stories/mobile/architecturals.jpg",
+    "title": "Architectural Wonder",
+    "story": "A marvel of modern architecture, this building stands tall, curving gracefully into the sky. An ode to human creativity and engineering."
+  },
+  {
+    "img": "world_tour.jpg",
+    "author": "Anna Lee",
+    "locationDesktop": "./Stories/desktop/world-tour.jpg",
+    "locationMobile": "./Stories/mobile/world-tour.jpg",
+    "title": "World Tour 2019",
+    "story": "Exploring the hidden corners of the world, where natural beauty thrives and untouched landscapes unfold before the eyes."
+  },
+  {
+    "img": "unknown_corona.jpg",
+    "author": "Sam Wright",
+    "locationDesktop": "./Stories/desktop/unforeseen-corners.jpg",
+    "locationMobile": "./Stories/mobile/unforeseen-corners.jpg",
+    "title": "Unknown Corona",
+    "story": "In the depths of the forest, mysteries unravel. A celestial corona paints the sky, illuminating the path for those willing to explore."
+  },
+  {
+    "img": "king_africa.jpg",
+    "author": "Sophia Brown",
+    "locationDesktop": "./Stories/desktop/king-on-africa.jpg",
+    "locationMobile": "./Stories/mobile/king-on-africa.jpg",
+    "title": "King of Africa",
+    "story": "A lion roars in the heart of Africa, standing proud as the king of the savannah. His gaze commands respect and admiration."
+  },
+  {
+    "img": "trip_to_nowhere.jpg",
+    "author": "Alex Green",
+    "locationDesktop": "./Stories/desktop/trip-to-nowhere.jpg",
+    "locationMobile": "./Stories/mobile/trip-to-nowhere.jpg",
+    "title": "The Trip to Nowhere",
+    "story": "An isolated tree stands alone in a barren landscape, symbolizing solitude and reflection. A journey without a clear destination."
+  },
+  {
+    "img": "surge_sea.jpg",
+    "author": "Chris Miller",
+    "locationDesktop": "./Stories/desktop/rage-of-the-sea.jpg",
+    "locationMobile": "./Stories/mobile/rage-of-the-sea.jpg",
+    "title": "Surge of the Sea",
+    "story": "The ocean surges with unstoppable force, crashing against the shore. A reminder of nature’s power and the beauty in its chaos."
+  },
+  {
+    "img": "running_free.jpg",
+    "author": "Kate Adams",
+    "locationDesktop": "./Stories/desktop/running-free.jpg",
+    "locationMobile": "./Stories/mobile/running-free.jpg",
+    "title": "Running Free",
+    "story": "A lone horse gallops through the mist, representing freedom and the raw connection to nature. Running toward the unknown."
+  },
+  {
+    "img": "behind_waves.jpg",
+    "author": "Liam Davis",
+    "locationDesktop": "./Stories/desktop/behind-the-waves.jpg",
+    "locationMobile": "./Stories/mobile/behind-the-waves.jpg",
+    "title": "Behind the Waves",
+    "story": "Beneath the waves lies a world of wonder. The ocean hides secrets in its depths, waiting for the curious to uncover them."
+  },
+  {
+    "img": "calm_waters.jpg",
+    "author": "Olivia Turner",
+    "locationDesktop": "./Stories/desktop/calm-waters.jpg",
+    "locationMobile": "./Stories/mobile/calm-waters.jpg",
+    "title": "Calm Waters",
+    "story": "At dusk, the waters settle into a stillness that reflects the beauty of the setting sun. A moment of peace amidst the chaos."
+  },
+  {
+    "img": "milky_way.jpg",
+    "author": "Michael Scott",
+    "locationDesktop": "./Stories/desktop/milky-way.jpg",
+    "locationMobile": "./Stories/mobile/milky-way.jpg",
+    "title": "The Milky Way",
+    "story": "The galaxy stretches across the night sky, a breathtaking view of the cosmos. A reminder of our place in the vast universe."
+  },
+  {
+    "img": "dark_forest.jpg",
+    "author": "Lucas Martinez",
+    "locationDesktop": "./Stories/desktop/dark-forest.jpg",
+    "locationMobile": "./Stories/mobile/dark-forest.jpg",
+    "title": "Night at the Dark Forest",
+    "story": "In the dark heart of the forest, secrets are whispered between trees. A place where the line between reality and dreams blurs."
+  },
+  {
+    "img": "summer_beauty.jpg",
+    "author": "Zoe Parker",
+    "locationDesktop": "/Stories/desktop/somwarpet.jpg",
+    "locationMobile": "./Stories/mobile/somwarpet.jpg",
+    "title": "Summer's Beauty",
+    "story": "Golden flowers bloom under the warm sun, embodying the essence of summer. Nature’s beauty is on full display in every petal."
+  },
+  {
+    "img": "land_dreams.jpg",
+    "author": "Ethan Cooper",
+    "locationDesktop": "./Stories/desktop/land-of-dreams.jpg",
+    "locationMobile": "./Stories/mobile/land-of-dreams.jpg",
+    "title": "Land of Dreams",
+    "story": "A dreamlike landscape unfolds in vibrant colors, where reality feels distant, and the imagination reigns supreme."
+  }
+]

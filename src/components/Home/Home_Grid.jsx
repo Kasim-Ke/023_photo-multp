@@ -52,7 +52,7 @@ export const Home_Grid = () => {
   return (
     <div
       className="lg:max-w-[1440px] md:max-w-[768px] max-w-[375px] h-full mx-auto flex text-white "
-      data-aos="fade-right"
+      data-aos="zoom-in"
     >
       <div className="grid grid-cols-1 lg:grid-rows-1 md:grid-rows-2 lg:grid-cols-4 md:grid-cols-2 mx-auto ">
         {images.map((image, index) => (
