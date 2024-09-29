@@ -4,7 +4,10 @@ import stories_hero_mobile from "./mobile/moon-of-appalacia.jpg";
 
 export const Stories_Hero = () => {
   return (
-    <div className="relative md:max-w-[1440px] md:h-[650px] max-w-[375px] h-[317px]   mx-auto">
+    <div
+      className="relative md:max-w-[1440px] md:h-[650px] max-w-[375px] h-[317px]   mx-auto"
+      data-aos="zoom-down"
+    >
       <img
         className="object-cover w-full h-full lg:block md:hidden sm:hidden"
         src={stories_hero_dektop}
