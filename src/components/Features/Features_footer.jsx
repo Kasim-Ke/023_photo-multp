@@ -16,7 +16,7 @@ export const Features_footer = () => {
         <div className=" md:my-auto  ">
           <button className="md:w-[200px] md:h-[14px] flex justify-between  items-center text-white ">
             <h5 className="md:text-[14px] tracking-[2px] font-bold hover:border-b hover:border-b-white hover:scale-105 ease-in-out duration-200 pr-2">
-              VIEW THE STORIES
+              GET AN INVITE
             </h5>
             <HiArrowLongRight size={30} color="white" />
           </button>
