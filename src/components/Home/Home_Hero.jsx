@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -106,7 +107,7 @@ export const Home_Hero = () => {
               </p>
               <button className="lg:w-[200px] lg:h-[16px] flex justify-between  items-center">
                 <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black hover:scale-105 ease-in-out duration-200 pr-2">
-                  VIEW THE STORIES
+                  <Link to="/stories">VIEW THE STORIES</Link>
                 </h5>
                 <HiArrowLongRight size={30} />
               </button>
@@ -131,7 +132,7 @@ export const Home_Hero = () => {
               </p>
               <button className="lg:w-[200px] lg:h-[16px] flex justify-between  items-center ">
                 <h5 className="lg:text-[12px] tracking-[2px] font-bold hover:border-b hover:border-b-black ease-in-out hover:scale-105 duration-200 pr-2">
-                  VIEW THE STORIES
+                  <Link to="/stories">VIEW THE STORIES</Link>
                 </h5>
                 <HiArrowLongRight size={30} />
               </button>

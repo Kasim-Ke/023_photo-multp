@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -67,7 +68,10 @@ export const Home_Grid = () => {
                 <h4 className="text-[12px]">by {image.author}</h4>
                 <hr className="w-55 h-px my-4 bg-gray-200 border-0"></hr>
                 <div className="lg:w-[150px] flex  items-center">
-                  <button className="pr-2">READ STORY</button>
+                  <button className="pr-2">
+                    {" "}
+                    <Link to="/stories">VIEW THE STORIES</Link>
+                  </button>
                   <HiArrowLongRight size={30} />
                 </div>
               </div>
