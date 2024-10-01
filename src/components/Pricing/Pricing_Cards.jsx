@@ -9,7 +9,10 @@ export const Pricing_Cards = () => {
   const businessPrice = isYearly ? 99 * 10 : 99;
 
   return (
-    <div className="lg:max-w-[1440px] lg:h-[823px] md:max-w-[768px] md:h-[1165px] w-[375px] h-[1442px] mx-auto flex justify-center items-center ">
+    <div
+      className="lg:max-w-[1440px] lg:h-[823px] md:max-w-[768px] md:h-[1165px] w-[375px] h-[1442px] mx-auto flex justify-center items-center "
+      data-aos="fade-up"
+    >
       <div className="lg:w-[1110px] lg:h-[550px] mx-auto justify-center items-center flex flex-col ">
         {/* TOGGLE BUTTON BOX */}
         <div className="w-full h-[80px] flex justify-center items-start">

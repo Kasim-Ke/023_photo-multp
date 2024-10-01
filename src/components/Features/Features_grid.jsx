@@ -7,7 +7,10 @@ import drop from "./features/desktop/drag-drop.svg";
 
 export const Features_grid = () => {
   return (
-    <div className="lg:max-w-[1440px] lg:h-[896px] md:max-w-[768px] md:h-[1085px] max-w-[375px] h-[1830px] mx-auto  items-center justify-center  flex  ">
+    <div
+      className="lg:max-w-[1440px] lg:h-[896px] md:max-w-[768px] md:h-[1085px] max-w-[375px] h-[1830px] mx-auto  items-center justify-center  flex  "
+      data-aos="fade-up"
+    >
       <div className="lg:w-[1110px] lg:h-[576px] md:w-[691px] md:h-[861px] w-[310px] h-[1675px]    grid lg:grid-cols-3 md:grid-rows-3 md:grid-cols-2 grid-cols-1 lg:gap-y-[50%] md:gap-x-5">
         {/* 1 box*/}
 
