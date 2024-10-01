@@ -4,7 +4,7 @@ export const Pricing_Table = () => {
       className="lg:max-w-[1440px] md:max-w-[768px] max-w-[375px]  flex justify-center items-center mx-auto "
       data-aos="fade-down"
     >
-      <div className="lg:w-[1031px] lg:h-[552px]  md:w-[689px] md:h-[464px] w-[355px] h-[732px] mx-auto">
+      <div className="lg:w-[1031px] lg:h-[552px]  md:w-[689px] md:h-[464px] w-[355px] h-[832px] mx-auto">
         {/* Large Screen /*/}
         <div>
           <div className="text-[40px] leading-[48px] tracking-[4.17px] flex justify-center items-center font-bold py-5 ">
