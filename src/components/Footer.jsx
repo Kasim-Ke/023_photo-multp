@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import logo from "./Home/desktop/logo.svg";
 import { HiArrowLongRight } from "react-icons/hi2";
 
@@ -50,19 +52,26 @@ export const Footer = () => {
         </div>
         {/*buttons */}
         <div className="md:h-[121px] flex flex-col md:mx-auto justify-between items-center  h-[121px] text-white font-bold mx-auto  ">
-          <button className="hover:text-gray-500 duration-300 ">HOME</button>
-          <button className="hover:text-gray-500 duration-300 ">STORIES</button>
           <button className="hover:text-gray-500 duration-300 ">
-            FEATURES
+            <Link to="/home">HOME</Link>
           </button>
-          <button className="hover:text-gray-500 duration-300 ">PRICING</button>
+          <button className="hover:text-gray-500 duration-300 ">
+            <Link to="/stories">STORIES</Link>
+          </button>
+          <button className="hover:text-gray-500 duration-300 ">
+            <Link to="/features">FEATURES</Link>
+          </button>
+          <button className="hover:text-gray-500 duration-300 ">
+            {" "}
+            <Link to="/pricing">PRICING</Link>
+          </button>
         </div>
 
         {/*buttom and copy right */}
         <div className=" md:h-[121px] flex flex-col justify-between md:items-end items-center ">
           <button className="lg:w-[200px] lg:h-[14px] flex justify-between  items-center text-white ">
             <h5 className="lg:text-[14px] tracking-[2px] font-bold hover:border-b hover:border-b-white hover:scale-105 ease-in-out duration-200 pr-2">
-              VIEW THE STORIES
+              <Link to="/stories"> VIEW THE STORIES</Link>
             </h5>
             <HiArrowLongRight size={30} color="white" />
           </button>
